@@ -1,0 +1,145 @@
+
+/* Estilos generales para los enlaces */
+.nav-link,
+.footer-link {
+    color: rgb(180, 68, 180);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Estilos para el header */
+#cabeceraIndex {
+    background-color: rgb(62, 36, 159);
+}
+
+#logo {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo img {
+    max-width: 70px;
+    height: auto;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(180, 68, 180);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Estilo para el hover en la barra de navegación */
+.nav-link:hover {
+    font-weight: bold;
+    color: inherit;
+}
+
+/* Estilo para el hover del logotipo en la barra de navegación */
+#logo img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+
+#contenidoindex{background-color: powderblue;}
+
+#modulo1index{height: 800px}
+
+#cont1mod1{background-color: greenyellow; }
+#cont2mod1{background-color: purple;}
+#cont3mod1{background-color: rosybrown;}
+#cont4mod1{background-color: violet;}
+
+
+#modulo2index{height: 1800px}
+
+#cont1mod2{background-color: darksalmon;}
+#cont2mod2{background-color: darkolivegreen;}
+#cont3mod2{background-color: darkorange;}
+#cont4mod2{background-color: purple;}
+#cont5mod2{background-color: steelblue;}
+#cont6mod2{background-color: royalblue;}
+#cont7mod2{background-color: salmon;}
+#cont8mod2{background-color: burlywood;}
+#cont9mod2{background-color: fuchsia;}
+#cont10mod2{background-color: darkturquoise;}
+#cont11mod2{background-color: grey;}
+
+
+
+#contenidomenu{background-color: royalblue;height: 1600px}
+
+#modulo1menu{background-color: honeydew;}
+
+#slider{background-color: darkred;height: 450px}
+#cajatexto{background-color: gold;height: 100px}
+#imagenmenu{background-color: indigo;height: 450px}
+#imagenmov{background-color: navajowhite;height: 300px}
+#textoimgmov{background-color: darksalmon; height: 300pxs}
+
+
+
+
+/* Estilos para el footer */
+#pieIndex {
+    background-color: rgb(39, 23, 95);
+    padding: 20px;
+}
+
+.contacto,
+.preguntas-frecuentes {
+    padding: 20px;
+}
+
+.contacto h5,
+.preguntas-frecuentes h5 {
+    color: rgb(180, 68, 180)
+}
+
+.contacto ul,
+.preguntas-frecuentes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacto li,
+.preguntas-frecuentes li {
+    margin-bottom: 10px;
+    color:rgb(180, 68, 180);
+}
+
+.footer-link {
+    color: rgb(180, 68, 180);
+}
+
+
+
+
+@media all and (max-width: 1199.98px) {#contenidoindex{height: 1000px}
+
+#modulo1index{height: 500px} } 
